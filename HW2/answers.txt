@@ -1,0 +1,63 @@
+Kamil
+1.1)52124
+1.2)36959
+
+2)0.117 
+
+3.3)married
+3.4)retired,student,unemployed
+3.5)single,student
+
+4.1)0.077
+4.2)78.000,39.175,20.000,8.927
+
+5)A
+6)B
+7)7
+
+8.2)0.025
+8.5)duration
+
+9)It can be seen that in the axes campaign and age
+the sample is well divided into 2 classes.
+The data is also separable in the campaign and day 
+of the week axes.
+10)36954
+11)17
+12)43
+13)4198
+14)-0.299
+15)duration,was_contacted,poutcome_success
+
+16.1)10.0
+16.2)0.899
+16.3)month_new_9,poutcome_success,month_new_3
+16.4)0.905
+
+
+17.1)15,100
+17.2)0.928
+17.4)0.7937671860678277
+17.6)0.692942254812099
+17.7)age,duration,poutcome_success
+
+18.1)0.926
+18.2)0.491
+18.3)As can be seen from the accuracy and roc-auc, 
+feature selection did not significantly
+ improve the model
+
+19)LogisticRegression: month_new_9, poutcome_success, month_new_3
+
+Random forest:age, duration, poutcome_success
+
+Random forest top 30 features: age, default, balance
+
+It can be seen that all three methods have either age or poutcome_success in the top 3 features. An interesting fact is that the top 3 features of logistic regression include the months September and March. To me, this is strange.
+
+The presence of age and balance in top features is very logical to me, because a large balance shows the client’s reliability, while a small balance, on the contrary, shows his unreliability. The client’s age also plays a big role, because a middle-aged person can most easily repay a loan. Clients who are too young and too old no longer have a constant and sufficient source of income.
+
+
+
+
+
